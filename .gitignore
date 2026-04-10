@@ -1,0 +1,7 @@
+/target
+/src/config.rs
+/dev_log-finiteclock.md
+venv/
+__pycache__/
+*.pyc
+.DS_Store

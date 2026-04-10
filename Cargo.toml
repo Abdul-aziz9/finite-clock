@@ -1,0 +1,20 @@
+[package]
+name = "finite_clock"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+axum = "0.7"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.11", features = ["json"] }
+scraper = "0.18"
+chrono = "0.4"
+embedded-graphics = "0.8"
+embedded-graphics-core = "0.4"
+bmp-monochrome = "1.0" 
+tower-http = { version = "0.5", features = ["fs"] }
+csv = "1.4.0"
+futures = "0.3.32"
+
