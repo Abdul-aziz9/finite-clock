@@ -13,7 +13,7 @@ def clear_screen():
 # ── Box helpers ────────────────────────────────────────────────────────────────
 # Inner width = CONTENT_WIDTH minus 2 border chars (│ on each side)
 INNER = CONTENT_WIDTH - 2
-REFRESH_DELAY = 3600
+REFRESH_DELAY = 1
 
 def _row(content: str = "") -> str:
     """Return a padded inner row, left-aligned, trimmed to INNER width."""
@@ -51,6 +51,9 @@ def render(t: TimeLeft, life_exp: float, sex: str, image_path: str):
         countdown_str = (
                         f"{t.years:>2} Yrs  "
                         f"{t.days:>3} Days  "
+                        f"{t.hours:>2} Hrs  "
+                        f"{t.minutes:>2} Min  "
+                        f"{t.seconds:>2} Sec"
                     )
         line(_center(countdown_str))
 
