@@ -33,7 +33,7 @@ To run the Finite Clock on your local machine, follow these steps to ensure a cl
 1. Clone the Repository
 
 ```
-git clone "https://github.com/DakotaJPayne/finite-clock.git"
+git clone "https://github.com/Abdul-aziz9/finite-clock.git"
 cd finite-clock/python
 ```
 
