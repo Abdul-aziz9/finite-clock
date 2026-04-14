@@ -1,7 +1,9 @@
 # Finite Clock
 Created By:
 
-[Abdul Aziz Oshinberu](https://github.com/Abdul-aziz9) & [Dakota J Payne](https://github.com/DPayne25)
+[Abdul Aziz Oshinberu](https://github.com/Abdul-aziz9) 
+&
+[Dakota J Payne](https://github.com/DPayne25)
 
 
 >"To measure your days is to own them. The truth is only painful until it becomes your strategy."
